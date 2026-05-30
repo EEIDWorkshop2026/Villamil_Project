@@ -33,7 +33,7 @@ classifier = Vectorize(function(x){
   } else if (x >= 500 & x < 5000){
     return("500-4900")
   } else if (x >= 5000 & x < 49000){
-    return("5000 - 49000")
+    return("5000-49000")
   } else if (x >= 50000){
     return("50000+")
   } else {
